@@ -128,7 +128,7 @@ const About = props => {
 
     React.createElement("div", { className: "desc" }, /*#__PURE__*/
     React.createElement("h4", { className: "subtitle" }, "I'm a programmer."), /*#__PURE__*/
-    React.createElement("p", null, "For the front-end I usually work with Javascript, either standalone or including popular frameworks like ReactJS and VueJS. I also make the web pretty by using Sass, CSS and, whenever needed, any of their friends: Bootstrap, Bulma, etc."), /*#__PURE__*/
+    React.createElement("p", null, "For the front-end I usually work with Javascript, either standalone or including popular frameworks like ReactJS. I also make the web pretty by using CSS and, whenever needed, any of their friends: Bootstrap, Tailwind css, Material UI etc."), /*#__PURE__*/
 
 
 
@@ -140,13 +140,15 @@ const About = props => {
 
     React.createElement("div", { className: "desc" }, /*#__PURE__*/
     React.createElement("h4", { className: "subtitle" }, "Also a designer."), /*#__PURE__*/
-    React.createElement("p", null, "I feel comfortable working with many Adobe products. Photoshop, Illustrator, InDesign, Lightroom or Xd are some kind of industry standards and I love working with them. I'm not limited to them, though: Gimp, Inkscape or Figma are also very valid applications that I've been working with."), /*#__PURE__*/
+    React.createElement("p", null, "I feel comfortable working with many Adobe Photoshop and Figma are some kind of industry standards and I love working with them."),
+    // React.createElement("p", null, "I feel comfortable working with many Adobe products. Photoshop, Illustrator, InDesign, Lightroom or Xd are some kind of industry standards and I love working with them. I'm not limited to them, though: Gimp, Inkscape or Figma are also very valid applications that I've been working with."), /*#__PURE__*/
 
 
 
 
 
-    React.createElement("p", null, "User interfaces, brochures, books, branding... You name it! As I mentioned, creating pretty things is particularly important for me."))))));
+    // React.createElement("p", null, "User interfaces, brochures, books, branding... You name it! As I mentioned, creating pretty things is particularly important for me.")
+    )))));
 
 
 
