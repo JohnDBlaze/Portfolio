@@ -111,11 +111,11 @@ const About = props => {
 
     React.createElement("div", { className: "desc full" }, /*#__PURE__*/
     React.createElement("h4", { className: "subtitle" }, "My name is Abhilash Francis."), /*#__PURE__*/
-    React.createElement("p", null, "I am a web developer and UX designer located in the picturesque city of Kochi, Kerala."), /*#__PURE__*/
+    React.createElement("p", null, "I am a web developer and UI/UX designer located in the picturesque city of Kochi, Kerala."), /*#__PURE__*/
 
 
 
-    React.createElement("p", null, "I really enjoy solving problems as well as making things pretty and easy to use. I can't stop learning new things; the more, the better. I also love photography, a hobby I'm taking along since the good old film cameras. Oh, and rice with milk; I have a passion for rice with milk!")), /*#__PURE__*/
+    React.createElement("p", null, "I really enjoy solving problems as well as making things pretty and easy to use. I can't stop learning new things; the more, the better. I also love football, reading and listening music")), /*#__PURE__*/
 
 
 
