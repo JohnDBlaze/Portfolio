@@ -234,7 +234,7 @@ const Projects = props => {
       repo: "https://github.com/JohnDBlaze/Chess" }, /*#__PURE__*/
 
     React.createElement("small", null, "Built using HTML5, JS and CSS."), /*#__PURE__*/
-    React.createElement("p", null, "A TicTacToe game with a basic AI algorithm made for the legacy front-end projects.")), /*#__PURE__*/
+    React.createElement("p", null, "A TicTacToe game with a basic AI algorithm made for front-end projects.")), /*#__PURE__*/
 
 
     React.createElement(Project, {
@@ -246,6 +246,18 @@ const Projects = props => {
 
     React.createElement("small", null, "Built using React and CSS."), /*#__PURE__*/
     React.createElement("p", null, "A project on which I built a virtual calculator with its usual features.")), /*#__PURE__*/
+
+
+    React.createElement(Project, {
+      title: "Travelo 3D parallax animation.",
+      img: 'img/3D.png',
+      tech: "js html css",
+      link: "https://travelo-ten.vercel.app",
+      repo: "https://github.com/JohnDBlaze/Travelo" }, /*#__PURE__*/
+
+    React.createElement("small", null, "Built using HTML5, JS and CSS."), /*#__PURE__*/
+    React.createElement("p", null, "A project on which I built a 3D Parallax Animation for front-end projects.")), /*#__PURE__*/
+
 
 
     React.createElement(Project, {
