@@ -141,13 +141,6 @@ const About = props => {
     React.createElement("div", { className: "desc" }, /*#__PURE__*/
     React.createElement("h4", { className: "subtitle" }, "Also a designer."), /*#__PURE__*/
     React.createElement("p", null, "I feel comfortable working with many Adobe Photoshop and Figma are some kind of industry standards and I love working with them."),
-    // React.createElement("p", null, "I feel comfortable working with many Adobe products. Photoshop, Illustrator, InDesign, Lightroom or Xd are some kind of industry standards and I love working with them. I'm not limited to them, though: Gimp, Inkscape or Figma are also very valid applications that I've been working with."), /*#__PURE__*/
-
-
-
-
-
-    // React.createElement("p", null, "User interfaces, brochures, books, branding... You name it! As I mentioned, creating pretty things is particularly important for me.")
     )))));
 
 
@@ -202,9 +195,6 @@ const Project = props => {
     React.createElement("i", { className: "fas fa-external-link-alt" }))))));
 
 
-
-
-
 };
 
 
@@ -220,10 +210,6 @@ const Projects = props => {
     React.createElement("div", { className: "heading" }, /*#__PURE__*/
     React.createElement("h3", { className: "title" }, "My Works"), /*#__PURE__*/
     React.createElement("p", { className: "separator" })), /*#__PURE__*/
-    // React.createElement("p", { className: "subtitle" }, "Here's a list of ", /*#__PURE__*/
-    // React.createElement("u", null, "most"), " of the projects I've been working on lately. All of these were built during my coding camp adventure on",
-    // ' ', /*#__PURE__*/
-    // React.createElement("a", { href: "https://www.freecodecamp.org/", target: "_blank", rel: "noopener noreferrer" }, "freeCodeCamp"), ", where I've been coding for almost 7 months non-stop until I completed all the projects required to get my Full-Stack Developer certification.")), /*#__PURE__*/
     
 
     React.createElement(Project, {
@@ -234,7 +220,7 @@ const Projects = props => {
       repo: "https://github.com/JohnDBlaze/Chess" }, /*#__PURE__*/
 
     React.createElement("small", null, "Built using HTML5, JS and CSS."), /*#__PURE__*/
-    React.createElement("p", null, "A TicTacToe game with a basic AI algorithm made for front-end projects.")), /*#__PURE__*/
+    React.createElement("p", null, "A Chess game with a basic AI algorithm made for front-end projects.")), /*#__PURE__*/
 
 
     React.createElement(Project, {
