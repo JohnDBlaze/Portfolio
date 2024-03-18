@@ -224,7 +224,17 @@ const Projects = props => {
     // React.createElement("u", null, "most"), " of the projects I've been working on lately. All of these were built during my coding camp adventure on",
     // ' ', /*#__PURE__*/
     // React.createElement("a", { href: "https://www.freecodecamp.org/", target: "_blank", rel: "noopener noreferrer" }, "freeCodeCamp"), ", where I've been coding for almost 7 months non-stop until I completed all the projects required to get my Full-Stack Developer certification.")), /*#__PURE__*/
+   
     
+    React.createElement(Project, {
+      title: "Chess.",
+      img: 'img/chess-game.png',
+      tech: "js html css",
+      link: "https://movie-store-af.vercel.app",
+      repo: "https://github.com/JohnDBlaze/Movie-store" }, /*#__PURE__*/
+
+    React.createElement("small", null, "Built using HTML5, JS and CSS."), /*#__PURE__*/
+    React.createElement("p", null, "A Movie store which lets the users select the movie to watch or save to watchlist made for front-end projects.")),
 
     React.createElement(Project, {
       title: "Chess.",
@@ -607,7 +617,7 @@ const SocialLinks = props => {
   return /*#__PURE__*/(
     React.createElement("div", { className: "social" }, /*#__PURE__*/
     React.createElement("a", {
-      href: "https://twitter.com/yagoestevez",
+      href: "https://twitter.com",
       target: "_blank",
       rel: "noopener noreferrer",
       title: "Link to author's Twitter profile" },
@@ -617,7 +627,7 @@ const SocialLinks = props => {
 
     React.createElement("a", {
       id: "profile-link",
-      href: "https://github.com/yagoestevez",
+      href: "https://github.com/JohnDBlaze",
       target: "_blank",
       rel: "noopener noreferrer",
       title: "Link to author's GitHub Profile" },
@@ -625,17 +635,17 @@ const SocialLinks = props => {
     ' ', /*#__PURE__*/
     React.createElement("i", { className: "fab fa-github" })), /*#__PURE__*/
 
-    React.createElement("a", {
-      href: "https://codepen.io/yagoestevez",
-      target: "_blank",
-      rel: "noopener noreferrer",
-      title: "Link to author's Codepen Profile" },
+    // React.createElement("a", {
+    //   href: "https://codepen.io/yagoestevez",
+    //   target: "_blank",
+    //   rel: "noopener noreferrer",
+    //   title: "Link to author's Codepen Profile" },
 
-    ' ', /*#__PURE__*/
-    React.createElement("i", { className: "fab fa-codepen" }))));
+    // ' ', /*#__PURE__*/
+    // React.createElement("i", { className: "fab fa-codepen" }))));
 
 
-
+    ))
 };
 
 
