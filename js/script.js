@@ -213,7 +213,7 @@ const Projects = props => {
     
     React.createElement(Project, {
       title: "Chess.",
-      img: 'img/chess-game.png',
+      img: 'https://thevictorvoice.com/wp-content/uploads/2023/10/Interstellar-1200x675.jpg',
       tech: "js html css",
       link: "https://movie-store-af.vercel.app",
       repo: "https://github.com/JohnDBlaze/Movie-store" }, /*#__PURE__*/
