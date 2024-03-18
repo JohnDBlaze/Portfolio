@@ -212,7 +212,7 @@ const Projects = props => {
     React.createElement("p", { className: "separator" })), /*#__PURE__*/
     
     React.createElement(Project, {
-      title: "Chess.",
+      title: "Movie store.",
       img: 'img/Movie.png',
       tech: "js html css",
       link: "https://movie-store-af.vercel.app",
@@ -220,6 +220,16 @@ const Projects = props => {
 
     React.createElement("small", null, "Built using HTML5, JS and CSS."), /*#__PURE__*/
     React.createElement("p", null, "A Movie store which lets the users select the movie to watch or save to watchlist made for front-end projects.")),
+
+    React.createElement(Project, {
+      title: "Tourism website.",
+      img: 'img/tourism.jpg',
+      tech: "js html css",
+      link: "https://tourism-website-two-blush.vercel.app",
+      repo: "https://github.com/JohnDBlaze/Tourism-website" }, /*#__PURE__*/
+
+    React.createElement("small", null, "Built using HTML5, JS and CSS."), /*#__PURE__*/
+    React.createElement("p", null, "A Tourism website lets the users see great tourist destiantions made for front-end projects.")),
 
     React.createElement(Project, {
       title: "Chess.",
