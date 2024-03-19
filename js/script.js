@@ -263,7 +263,15 @@ const Projects = props => {
     React.createElement("small", null, "Built using HTML5, JS and CSS."), /*#__PURE__*/
     React.createElement("p", null, "A project on which I built a 3D Parallax Animation for front-end projects.")), /*#__PURE__*/
 
+    React.createElement(Project, {
+      title: "Digital Neon Clock.",
+      img: 'img/digital-neon-clock.png',
+      tech: "js html css",
+      link: "https://digital-neon-clock.vercel.app",
+      repo: "https://github.com/JohnDBlaze/Digital-Neon-Clock" }, /*#__PURE__*/
 
+    React.createElement("small", null, "Built using HTML5, JS and CSS."), /*#__PURE__*/
+    React.createElement("p", null, "A Digital neon clock made for front-end projects.")),
 
     React.createElement(Project, {
       title: "TicTacToe Game.",
