@@ -241,6 +241,15 @@ const Projects = props => {
     React.createElement("small", null, "Built using HTML5, JS and CSS."), /*#__PURE__*/
     React.createElement("p", null, "A Chess game with a basic AI algorithm made for front-end projects.")), /*#__PURE__*/
 
+    React.createElement(Project, {
+      title: "Virtual Guitar.",
+      img: 'img/Guitar.png',
+      tech: "js html css",
+      link: "https://virtual-guitar.vercel.app",
+      repo: "https://github.com/JohnDBlaze/Virtual-Guitar" }, /*#__PURE__*/
+
+    React.createElement("small", null, "Built using HTML5, JS and CSS."), /*#__PURE__*/
+    React.createElement("p", null, "A project on which I built a virtual guitar with its usual features.")), /*#__PURE__*/
 
     React.createElement(Project, {
       title: "Calculator.",
